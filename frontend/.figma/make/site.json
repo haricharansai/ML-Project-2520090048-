@@ -1,0 +1,8 @@
+{
+     "title": "FakeLens",
+     "description": "Fake news detection dashboard",
+     "language": "en",
+     "robots": {
+          "index": true
+     }
+}

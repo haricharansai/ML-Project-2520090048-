@@ -1,0 +1,5 @@
+{
+  "test_loss": 0.1557,
+  "test_accuracy": 0.9623,
+  "model_id": "bert-base-uncased"
+}

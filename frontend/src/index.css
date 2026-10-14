@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: "JetBrains Mono:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/JetBrainsMono_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/JetBrainsMono_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/JetBrainsMono_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Semi Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter:Medium Italic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("https://static.figma.com/font/Inter_1") format("woff2");
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}

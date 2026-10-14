@@ -1,0 +1,43 @@
+{
+  "source_files": [
+    "data\\raw\\PolyglotFakeFacts_Fake.xlsx",
+    "data\\raw\\PolyglotFakeFacts_Real.xlsx"
+  ],
+  "text_column": "text",
+  "label_column": "label",
+  "label_map": {
+    "real": 0,
+    "fake": 1
+  },
+  "seed": 42,
+  "total_loaded": 10206,
+  "after_preprocessing": 8654,
+  "deduplication": {
+    "exact_text_dropped": 1552,
+    "url_label_dropped": 0,
+    "remaining": 8654
+  },
+  "split_counts": {
+    "train": 6057,
+    "validation": 1298,
+    "test": 1299
+  },
+  "class_distribution": {
+    "train": {
+      "1": 3083,
+      "0": 2974
+    },
+    "validation": {
+      "1": 703,
+      "0": 595
+    },
+    "test": {
+      "0": 650,
+      "1": 649
+    }
+  },
+  "leakage_check": {
+    "url_groups_in_multiple_splits": 0,
+    "verified": true
+  }
+}
